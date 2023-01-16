@@ -13,8 +13,8 @@ public class Circle extends Thread{
         this.angle = angle;
 
         Random random = new Random();
-        //speed = random.nextDouble(360d);
-        speed = 0;
+        speed = random.nextDouble(360d);
+        //speed = 0;
 
         if(index%3 == 0) color = new Color(15 * index, 10 * index, 5 * index);
 
